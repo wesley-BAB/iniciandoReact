@@ -1,0 +1,19 @@
+.cardapio-item {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  background-color: #edf2f7;
+  border-left: 5px solid #63b3ed;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+
+.cardapio-item button {
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 8px;
+  width: 50%;
+}

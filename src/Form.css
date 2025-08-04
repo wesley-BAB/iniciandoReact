@@ -1,0 +1,34 @@
+.container-form
+{
+    width: 50%;
+    background-color: tomato;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.container-form h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-form input {
+    width: 100%;
+    height: 28px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container-form input:focus, textarea:focus{
+    border: 1px solid red;
+}
+
+.container-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    outline: none;
+}
